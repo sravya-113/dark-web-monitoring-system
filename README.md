@@ -22,7 +22,7 @@ This project scrapes known .onion websites via the Tor network, searching for th
 ![Threats CSV](screenshots/threats_csv.jpg)
 
 ### 📈 Summary Report
-![Summary Report](screenshots/summary_report.jpg)
+![Summary Report](screenshots/summory_report.jpg)
 
 
 ## Limitations
