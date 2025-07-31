@@ -15,17 +15,14 @@ This project scrapes known .onion websites via the Tor network, searching for th
 - Logs findings to `threats_found.txt`
 - 
 ## 📸 Screenshots
-
-## 📸 Screenshots
-
 ### 🔍 Terminal Output (Keyword Detected)
-![Terminal Output](terminal_output.jpg)
+![Terminal Output](screenshots/terminal_output.jpg)
 
 ### 📂 Sample Output File (threats.csv)
-![Threats CSV](threats_csv.jpg)
+![Threats CSV](screenshots/threats_csv.jpg)
 
 ### 📈 Summary Report
-![Summary Report](summary_report.jpg)
+![Summary Report](screenshots/summary_report.jpg)
 
 
 ## Limitations
