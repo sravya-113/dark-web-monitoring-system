@@ -12,12 +12,20 @@ This project scrapes known .onion websites via the Tor network, searching for th
 
 dark-web-monitoring/
 │
+
 ├── check_tor.py # Verifies Tor proxy connectivity
+
+
 ├── scrape_tor.py # Scrapes .onion sites and logs threats
+
 ├── threats.csv # CSV file logging detected threats
+
 ├── threads_found.txt # Optional plain-text log (human-readable)
+
 ├── requirements.txt # Python dependencies
+
 ├── screenshots/ # Folder containing screenshots and images
+
 └── README.md
 
 Copy
