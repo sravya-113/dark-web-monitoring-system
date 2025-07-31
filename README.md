@@ -8,6 +8,22 @@ This project scrapes known .onion websites via the Tor network, searching for th
 - Install Python dependencies: `pip install requests[socks]`
 - Run the script `python scrape_tor.py`
 
+## Project Structure
+
+dark-web-monitoring/
+│
+├── check_tor.py # Verifies Tor proxy connectivity
+├── scrape_tor.py # Scrapes .onion sites and logs threats
+├── threats.csv # CSV file logging detected threats
+├── threads_found.txt # Optional plain-text log (human-readable)
+├── requirements.txt # Python dependencies
+├── screenshots/ # Folder containing screenshots and images
+└── README.md
+
+Copy
+Edit
+
+
 ## How it works
 - Connects to Tor proxy at 127.0.0.1:9150
 - Fetches content from list of .onion URLs
@@ -15,11 +31,6 @@ This project scrapes known .onion websites via the Tor network, searching for th
 - Logs findings to `threats_found.txt`
 - 
 ## 📸 Screenshots
-### 🔍 Terminal Output (Keyword Detected)
-![Terminal Output](screenshots/terminal_output.jpg)
-
-### 📂 Sample Output File (threats.csv)
-![Threats CSV](screenshots/threats_csv.jpg)
 
 ### 📈 Summary Report
 ![Summary Report](screenshots/summory_report.jpg)
