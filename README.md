@@ -25,10 +25,6 @@ This project scrapes known .onion websites via the Tor network, searching for th
 ![Summary Report](screenshots/summory_report.jpg)
 
 
-## Limitations
-- Many .onion sites are unstable or offline.
-- Only scrapes homepage currently.
-- No advanced analysis or alerting yet.
 
 ## Future work
 - Crawl multiple pages per site
